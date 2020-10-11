@@ -29,6 +29,6 @@ def return_string_array(array)
   while counter < array.length do 
     array[counter]
     counter += 1 
-    return array.each.to_s 
+    return array.split.to_s 
   end 
 end 
